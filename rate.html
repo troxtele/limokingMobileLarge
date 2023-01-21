@@ -53,7 +53,11 @@
 
   <!-- Title -->
   <title>LimoKing</title>
-  <body x-data="{ navOpen: false }" class="text-slate-50 font-hind relative">
+  <body
+    x-data="{ navOpen: false }"
+    :class="navOpen ? 'overflow-hidden' : 'overflow-visible' "
+    class="text-slate-50 font-hind relative"
+  >
     <!----------------------------------------->
     <!----- Header Section ----->
     <!----------------------------------------->
@@ -599,7 +603,7 @@
               >
                 <i
                   :class="open ? 'rotate-90' : 'rotate-0' "
-                  class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-900/40 flex items-center justify-center h-7 w-7"
+                  class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-900/30 flex items-center justify-center h-7 w-7"
                 ></i>
               </div>
             </div>
@@ -709,7 +713,7 @@
               >
                 <i
                   :class="open ? 'rotate-90' : 'rotate-0' "
-                  class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-900/40 flex items-center justify-center h-7 w-7"
+                  class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-900/30 flex items-center justify-center h-7 w-7"
                 ></i>
               </div>
             </div>
@@ -801,7 +805,7 @@
               >
                 <i
                   :class="open ? 'rotate-90' : 'rotate-0' "
-                  class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-900/40 flex items-center justify-center h-7 w-7"
+                  class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-900/30 flex items-center justify-center h-7 w-7"
                 ></i>
               </div>
             </div>
@@ -829,7 +833,7 @@
                   >
                     <i
                       :class="open ? 'rotate-90' : 'rotate-0' "
-                      class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-800 flex items-center justify-center h-7 w-7"
+                      class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-700/50 flex items-center justify-center h-7 w-7"
                     ></i>
                   </div>
                 </div>
@@ -946,7 +950,7 @@
                   >
                     <i
                       :class="open ? 'rotate-90' : 'rotate-0' "
-                      class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-800 flex items-center justify-center h-7 w-7"
+                      class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-700/50 flex items-center justify-center h-7 w-7"
                     ></i>
                   </div>
                 </div>
@@ -1049,7 +1053,7 @@
               >
                 <i
                   :class="open ? 'rotate-90' : 'rotate-0' "
-                  class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-900/40 flex items-center justify-center h-7 w-7"
+                  class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-900/30 flex items-center justify-center h-7 w-7"
                 ></i>
               </div>
             </div>
@@ -1077,7 +1081,7 @@
                   >
                     <i
                       :class="open ? 'rotate-90' : 'rotate-0' "
-                      class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-800 flex items-center justify-center h-7 w-7"
+                      class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-700/50 flex items-center justify-center h-7 w-7"
                     ></i>
                   </div>
                 </div>
@@ -1144,7 +1148,7 @@
                   >
                     <i
                       :class="open ? 'rotate-90' : 'rotate-0' "
-                      class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-800 flex items-center justify-center h-7 w-7"
+                      class="fa-solid fa-angle-down transition-all duration-300 bg-zinc-700/50 flex items-center justify-center h-7 w-7"
                     ></i>
                   </div>
                 </div>

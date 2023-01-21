@@ -53,7 +53,11 @@
 
   <!-- Title -->
   <title>LimoKing</title>
-  <body x-data="{ navOpen: false }" class="text-slate-50 font-hind relative">
+  <body
+    x-data="{ navOpen: false }"
+    :class="navOpen ? 'overflow-hidden' : 'overflow-visible' "
+    class="text-slate-50 font-hind relative"
+  >
     <!----------------------------------------->
     <!----- Header Section ----->
     <!----------------------------------------->
