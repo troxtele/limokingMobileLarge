@@ -2821,6 +2821,22 @@ main:hover .swiper-pagination {
     height: 90vh;
   }
 
+  .lg\:h-\[60\] {
+    height: 60;
+  }
+
+  .lg\:h-\[600px\] {
+    height: 600px;
+  }
+
+  .lg\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .lg\:h-\[570px\] {
+    height: 570px;
+  }
+
   .lg\:w-96 {
     width: 24rem;
   }
@@ -2852,5 +2868,17 @@ main:hover .swiper-pagination {
 @media (min-width: 1536px) {
   .\32xl\:h-\[720px\] {
     height: 720px;
+  }
+
+  .\32xl\:h-\[70px\] {
+    height: 70px;
+  }
+
+  .\32xl\:h-\[730px\] {
+    height: 730px;
+  }
+
+  .\32xl\:h-\[740px\] {
+    height: 740px;
   }
 }
